@@ -39,10 +39,6 @@
                             <constraint firstItem="S7i-e8-aah" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t2h-rH-ZW2"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="tableSort" destination="S7i-e8-aah" id="Kgv-z5-mxa"/>
-                        <outlet property="tableSub" destination="x1e-L2-lpZ" id="M5A-Ui-Opo"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

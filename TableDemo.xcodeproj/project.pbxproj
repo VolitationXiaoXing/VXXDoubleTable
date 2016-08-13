@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3610431D5EB6CF00E54CEC /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */; };
+		EA3610461D5EB6F200E54CEC /* VXXDoubleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3610451D5EB6F200E54CEC /* VXXDoubleTable.m */; };
 		EACC31911D420D130067B755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31901D420D130067B755 /* main.m */; };
 		EACC31941D420D130067B755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31931D420D130067B755 /* AppDelegate.m */; };
 		EACC31971D420D130067B755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31961D420D130067B755 /* ViewController.m */; };
 		EACC319A1D420D130067B755 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC31981D420D130067B755 /* Main.storyboard */; };
 		EACC319C1D420D130067B755 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACC319B1D420D130067B755 /* Assets.xcassets */; };
 		EACC319F1D420D130067B755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACC319D1D420D130067B755 /* LaunchScreen.storyboard */; };
-		EACC31A81D420D4B0067B755 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31A71D420D4B0067B755 /* TableViewDataSource.m */; };
 		EACC31AB1D42119F0067B755 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31AA1D42119F0067B755 /* Model.m */; };
 		EACC31AF1D421D420067B755 /* demo5.json in Resources */ = {isa = PBXBuildFile; fileRef = EACC31AE1D421D420067B755 /* demo5.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EA3610411D5EB6CF00E54CEC /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
+		EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
+		EA3610441D5EB6F200E54CEC /* VXXDoubleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXDoubleTable.h; sourceTree = "<group>"; };
+		EA3610451D5EB6F200E54CEC /* VXXDoubleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXDoubleTable.m; sourceTree = "<group>"; };
 		EACC318C1D420D130067B755 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC31901D420D130067B755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EACC31921D420D130067B755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +34,6 @@
 		EACC319B1D420D130067B755 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EACC319E1D420D130067B755 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EACC31A01D420D130067B755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EACC31A61D420D4B0067B755 /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
-		EACC31A71D420D4B0067B755 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 		EACC31A91D42119F0067B755 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
 		EACC31AA1D42119F0067B755 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		EACC31AE1D421D420067B755 /* demo5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = demo5.json; sourceTree = "<group>"; };
@@ -47,6 +50,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA3610401D5EB6CF00E54CEC /* VXXDoubleTable */ = {
+			isa = PBXGroup;
+			children = (
+				EA3610411D5EB6CF00E54CEC /* TableViewDataSource.h */,
+				EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */,
+				EA3610441D5EB6F200E54CEC /* VXXDoubleTable.h */,
+				EA3610451D5EB6F200E54CEC /* VXXDoubleTable.m */,
+			);
+			path = VXXDoubleTable;
+			sourceTree = "<group>";
+		};
 		EACC31831D420D130067B755 = {
 			isa = PBXGroup;
 			children = (
@@ -66,10 +80,9 @@
 		EACC318E1D420D130067B755 /* TableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA3610401D5EB6CF00E54CEC /* VXXDoubleTable */,
 				EACC31A91D42119F0067B755 /* Model.h */,
 				EACC31AA1D42119F0067B755 /* Model.m */,
-				EACC31A61D420D4B0067B755 /* TableViewDataSource.h */,
-				EACC31A71D420D4B0067B755 /* TableViewDataSource.m */,
 				EACC31921D420D130067B755 /* AppDelegate.h */,
 				EACC31931D420D130067B755 /* AppDelegate.m */,
 				EACC31951D420D130067B755 /* ViewController.h */,
@@ -165,9 +178,10 @@
 			files = (
 				EACC31971D420D130067B755 /* ViewController.m in Sources */,
 				EACC31941D420D130067B755 /* AppDelegate.m in Sources */,
-				EACC31A81D420D4B0067B755 /* TableViewDataSource.m in Sources */,
 				EACC31911D420D130067B755 /* main.m in Sources */,
 				EACC31AB1D42119F0067B755 /* Model.m in Sources */,
+				EA3610461D5EB6F200E54CEC /* VXXDoubleTable.m in Sources */,
+				EA3610431D5EB6CF00E54CEC /* TableViewDataSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +332,7 @@
 				EACC31A51D420D130067B755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
