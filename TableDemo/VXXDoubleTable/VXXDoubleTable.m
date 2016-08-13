@@ -11,8 +11,9 @@
 
 @interface VXXDoubleTable ()
 
-@property (weak, nonatomic) IBOutlet UITableView *tableSort;
-@property (weak, nonatomic) IBOutlet UITableView *tableSub;
+@property (weak, nonatomic) UITableView *tableSort;
+
+@property (weak, nonatomic) UITableView *tableSub;
 
 @property (strong,nonatomic)  TableViewDataSource* tableSortDetegate;
 @property (strong,nonatomic)  TableViewDataSource* tableSubDetegate;
@@ -26,7 +27,7 @@
 {
     self = [super init];
     if (self) {
-  
+        
         self.tableSortDetegate = [TableViewDataSource new];
         
         self.tableSort.dataSource = self.tableSortDetegate;
