@@ -10,4 +10,6 @@
 
 @interface VXXDoubleTable : UIView
 
+@property (strong,nonatomic) NSArray * dataArr;
+
 @end

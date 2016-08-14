@@ -8,6 +8,7 @@
 
 #import "VXXDoubleTable.h"
 #import "TableViewDataSource.h"
+#import "UIView+Frame.h"
 
 @interface VXXDoubleTable ()
 
@@ -28,6 +29,14 @@
     self = [super init];
     if (self) {
         
+        UITableView* tableSort = [UITableView new];
+        
+        self.tableSort = tableSort;
+        
+        UITableView* tableSub = [UITableView new];
+        
+        self.tableSub = tableSub;
+        
         self.tableSortDetegate = [TableViewDataSource new];
         
         self.tableSort.dataSource = self.tableSortDetegate;
@@ -46,6 +55,22 @@
     }
     
     return self;
+}
+
+
+-(void)layoutSubviews{
+    [super layoutSubviews];
+    
+    self.tableSub.frame = self.bounds;
+    
+    self.tableSort.frame = self.bounds;
+    
+    self.tableSort.width = self.bounds.size.width * 0.5;
+    
+    self.tableSub.x = self.bounds.size.width * 0.5;
+    
+    self.tableSub.width = self.tableSort.width;
+    
 }
 
 @end

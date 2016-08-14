@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		EA3610431D5EB6CF00E54CEC /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */; };
 		EA3610461D5EB6F200E54CEC /* VXXDoubleTable.m in Sources */ = {isa = PBXBuildFile; fileRef = EA3610451D5EB6F200E54CEC /* VXXDoubleTable.m */; };
+		EAB5058C1D6043B4001C04EF /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB5058B1D6043B4001C04EF /* UIView+Frame.m */; };
 		EACC31911D420D130067B755 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31901D420D130067B755 /* main.m */; };
 		EACC31941D420D130067B755 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31931D420D130067B755 /* AppDelegate.m */; };
 		EACC31971D420D130067B755 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC31961D420D130067B755 /* ViewController.m */; };
@@ -24,6 +25,8 @@
 		EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 		EA3610441D5EB6F200E54CEC /* VXXDoubleTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VXXDoubleTable.h; sourceTree = "<group>"; };
 		EA3610451D5EB6F200E54CEC /* VXXDoubleTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VXXDoubleTable.m; sourceTree = "<group>"; };
+		EAB5058A1D6043B4001C04EF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		EAB5058B1D6043B4001C04EF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		EACC318C1D420D130067B755 /* TableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACC31901D420D130067B755 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EACC31921D420D130067B755 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +56,8 @@
 		EA3610401D5EB6CF00E54CEC /* VXXDoubleTable */ = {
 			isa = PBXGroup;
 			children = (
+				EAB5058A1D6043B4001C04EF /* UIView+Frame.h */,
+				EAB5058B1D6043B4001C04EF /* UIView+Frame.m */,
 				EA3610411D5EB6CF00E54CEC /* TableViewDataSource.h */,
 				EA3610421D5EB6CF00E54CEC /* TableViewDataSource.m */,
 				EA3610441D5EB6F200E54CEC /* VXXDoubleTable.h */,
@@ -179,6 +184,7 @@
 				EACC31971D420D130067B755 /* ViewController.m in Sources */,
 				EACC31941D420D130067B755 /* AppDelegate.m in Sources */,
 				EACC31911D420D130067B755 /* main.m in Sources */,
+				EAB5058C1D6043B4001C04EF /* UIView+Frame.m in Sources */,
 				EACC31AB1D42119F0067B755 /* Model.m in Sources */,
 				EA3610461D5EB6F200E54CEC /* VXXDoubleTable.m in Sources */,
 				EA3610431D5EB6CF00E54CEC /* TableViewDataSource.m in Sources */,

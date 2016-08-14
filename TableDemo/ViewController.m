@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "TableViewDataSource.h"
 #import "Model.h"
+#import "VXXDoubleTable.h"
 
 @interface ViewController ()
 
@@ -25,9 +26,11 @@
     
     self.dataArr = [Model getData];
     
-    if (self.dataArr.count == 0) {
-        return;
-    }
+    VXXDoubleTable* doubleTable = [VXXDoubleTable new];
+    
+    doubleTable.frame = self.view.bounds;
+    
+    [self.view addSubview:doubleTable];
 }
 
 - (void)didReceiveMemoryWarning {
