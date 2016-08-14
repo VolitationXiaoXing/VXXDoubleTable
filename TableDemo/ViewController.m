@@ -30,6 +30,8 @@
     
     doubleTable.frame = self.view.bounds;
     
+    doubleTable.dataArr = self.dataArr;
+    
     [self.view addSubview:doubleTable];
 }
 

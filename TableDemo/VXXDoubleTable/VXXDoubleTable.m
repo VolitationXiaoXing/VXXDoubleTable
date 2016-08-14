@@ -9,6 +9,7 @@
 #import "VXXDoubleTable.h"
 #import "TableViewDataSource.h"
 #import "UIView+Frame.h"
+#import "Model.h"
 
 @interface VXXDoubleTable ()
 
@@ -52,6 +53,9 @@
         
         self.tableSub.delegate = self.tableSubDetegate;
         
+        
+        [self addSubview:self.tableSort];
+        [self addSubview:self.tableSub];
     }
     
     return self;
@@ -71,6 +75,21 @@
     
     self.tableSub.width = self.tableSort.width;
     
+}
+
+-(void)setDataArr:(NSArray *)dataArr{
+    
+    _dataArr = dataArr;
+    
+    NSIndexPath* indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
+    
+    self.tableSortDetegate.data = dataArr;
+    
+    [self.tableSort selectRowAtIndexPath:indexPath animated:NO scrollPosition:UITableViewScrollPositionNone];
+    
+     Model* model = dataArr[0];
+    
+    self.tableSubDetegate.data = model.arr;
 }
 
 @end
