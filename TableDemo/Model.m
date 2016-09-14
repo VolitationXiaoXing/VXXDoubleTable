@@ -24,7 +24,7 @@
         
         Model* model = [Model new];
         
-            model.name = dict[@"name"];
+        model.name = dict[@"name"];
         
         model.arr = dict[@"sub"];
         
