@@ -24,6 +24,9 @@
     
     [super viewDidLoad];
     
+    
+    
+    
     self.dataArr = [Model getData];
     
     VXXDoubleTable* doubleTable = [VXXDoubleTable new];
